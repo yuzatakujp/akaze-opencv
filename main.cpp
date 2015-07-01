@@ -23,14 +23,14 @@ void readme();
  */
 int main( int argc, char** argv )
 {
-  if( argc != 3 )
-  {
-    readme();
-    return -1;
-  }
+  //if( argc != 3 )
+  //{
+    //readme();
+    //return -1;
+  //}
 
-  Mat img_1 = imread( argv[1], IMREAD_GRAYSCALE );
-  Mat img_2 = imread( argv[2], IMREAD_GRAYSCALE );
+  Mat img_1 = imread( "/Users/yuzawatakuya/Documents/Github/akaze-opencv/bin/Debug/linux_pen.jpg", IMREAD_GRAYSCALE );
+  Mat img_2 = imread( "/Users/yuzawatakuya/Documents/Github/akaze-opencv/bin/Debug/linux_pen_2.jpg", IMREAD_GRAYSCALE );
 
   if( !img_1.data || !img_2.data )
   {
