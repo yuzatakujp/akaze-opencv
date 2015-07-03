@@ -1,9 +1,3 @@
-/**
- * @file akaze_demo
- * @brief AKAZE detector + descritpor + BruteForce Matcher + drawing matches with OpenCV functions
- * @author A. Huaman
- * @updated Takahiro Poly Horikawa
- */
 
 #include <stdio.h>
 #include <iostream>
@@ -17,10 +11,6 @@ using namespace cv;
 
 void readme();
 
-/**
- * @function main
- * @brief Main function
- */
 int main( int argc, char** argv )
 {
   //if( argc != 3 )
@@ -88,9 +78,6 @@ int main( int argc, char** argv )
   return 0;
 }
 
-/**
- * @function readme
- */
 void readme()
 {
   std::cout << " Usage: ./akaze_demo <img1> <img2>" << std::endl;
